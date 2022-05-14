@@ -1,0 +1,41 @@
+.MuiImageListItem-imgFullHeight {
+    padding-top: 4px;
+    height: 90% !important;
+}
+
+.MuiImageListItem-item {
+    box-sizing: border-box;
+    display: flex !important;
+}
+
+.SnSChoise {
+    padding: 4px;
+    padding-bottom: 15px;
+}
+
+.SnSForm {
+    display: inline-flex;
+    flex-wrap: wrap; 
+    width: 800px; 
+    margin: auto;
+    margin-top: 20px;
+}
+
+.SnSButton {
+    margin-top: 10px !important;
+    flex-grow: 1;
+}
+
+.SnSCardHeader {
+    text-align: center; 
+    background: #212121; 
+    color: #fff;
+}
+
+.SnSCard {
+    margin-top: 10px;
+}
+
+.ForgotPwForm {
+    width: auto;
+}
