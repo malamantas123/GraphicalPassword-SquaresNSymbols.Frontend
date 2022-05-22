@@ -41,6 +41,7 @@ export const Login = (props: LoginProps) => {
                 AfterLoginRedirect();
             }
             else {
+                clearPassword();
                 setisError(true);
                 setErrorCode(await response.text());
                 setIsShuffled(false);
